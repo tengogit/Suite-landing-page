@@ -1,0 +1,167 @@
+@media(width>1440px) {
+    .cont {
+        width: 1440px;
+    }
+
+    header {
+        width: 1110px;
+    }
+
+    .hbox1 {
+        width: 635px;
+        height: 409px;
+        margin-top: 250px;
+    }
+
+    h1 {
+        font-weight: 500;
+    }
+
+    .btn2 {
+        margin-top: 64px;
+    }
+
+    .mobtab {
+        display: none;
+    }
+
+    .mobdes {
+        display: inline;
+        position: absolute;
+        left: 34%;
+        top: 18%;
+        z-index: -1;
+    }
+
+    .line2 {
+        left: 36%;
+    }
+
+    .stats {
+        width: 190px;
+        height: 386px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        left: 80%;
+        top: 15%;
+    }
+
+    .statbox {
+        width: 190px;
+        height: 86px;
+        align-items: baseline;
+    }
+
+    main {
+        width: 1109px;
+        height: 532px;
+
+    }
+
+    .boy {
+        width: 360px;
+        height: 590px;
+    }
+
+    .man {
+        left: 10%;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 40px;
+        top: -8%;
+    }
+
+    .maintxt {
+        width: 350px;
+        height: 360px;
+        margin-top: 9%;
+        margin-left: 42%;
+        text-align: left;
+    }
+
+    h6,
+    .adrp,
+    .pname {
+        text-align: left;
+    }
+
+    .pname {
+        margin-left: -216px;
+    }
+
+    .adrp {
+        margin-left: -250px;
+    }
+
+    .line3 {
+        margin-top: -90px;
+    }
+
+    footer {
+        width: 1440px;
+
+    }
+
+    .footertxt {
+        width: 1111px;
+
+    }
+
+    .active {
+        pointer-events: all;
+        cursor: pointer;
+    }
+
+    .btn1:hover {
+
+        background-color: #172339;
+    }
+
+    .btn1:hover .p1 {
+        color: white;
+    }
+
+    .btn1:focus {
+        background-color: white;
+        outline: 2px solid #172339;
+        outline-offset: 3px;
+    }
+
+    .btn1:focus .p1 {
+        color: #172339;
+    }
+
+    .btn2:hover {
+        background: linear-gradient(90deg,
+                #A060FF 0%,
+                #CB30E3 49%,
+                #FFA84E 100%);
+
+    }
+
+    .btn2:focus {
+        background-color: #172339;
+        outline: 2px solid #172339;
+        outline-offset: 3px;
+
+    }
+
+    .iconbox img:hover {
+        opacity: 0.5;
+        scale: 1.5;
+    }
+
+    a:focus {
+        outline: 2px solid #172339;
+        outline-offset: 30px;
+        border-radius: 50%;
+        scale: 1.5;
+
+    }
+
+
+
+
+}

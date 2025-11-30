@@ -1,0 +1,94 @@
+@media(width>768px) {
+    .cont {
+        width: 768px;
+    }
+
+    header {
+        width: 704px;
+        position: relative;
+    }
+
+    .hbox1 {
+        margin-top: 80px;
+    }
+
+    .hbox1 {
+        width: 635px;
+        height: auto;
+        position: relative;
+        margin-top: 120px;
+    }
+
+    h1 {
+        font-size: 56px;
+        font-weight: 900;
+        width: 525px;
+        letter-spacing: -0.78px;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .line2 {
+        display: inline;
+        position: absolute;
+        left: 45%;
+        top: -15%;
+    }
+
+    .mobmob {
+        display: none;
+    }
+
+    .mobtab {
+        display: inline;
+        position: absolute;
+        top: 11%;
+        left: 61%;
+    }
+
+    .mobtab {
+        z-index: -1;
+    }
+
+    h2 {
+        width: 340px;
+        line-height: 160%;
+        letter-spacing: 0.1px;
+        margin-top: 40px;
+    }
+
+    .stats {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 64px;
+    }
+
+    .statbox {
+        width: 192px;
+        height: 86px;
+    }
+
+    main {
+        width: 704px;
+        height: 684px;
+    }
+
+    .maintxt {
+        width: 608px;
+        margin-top: 52%;
+    }
+
+    footer {
+        width: 768px;
+    }
+
+    .footertxt {
+        width: 704px;
+        height: 25px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
